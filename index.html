@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Quiz Game</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file for styling -->
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Welcome to the Online Quiz Game!</h1>
+        <div class="category-selection">
+            <label for="category">Select a category:</label>
+            <select id="category">
+                <option value="sport">Sport</option>
+                <option value="politics">Politics</option>
+                <option value="history">History</option>
+                <option value="geography">Geography</option>
+                <option value="science">Science</option>
+                <option value="math">Math</option>
+                <option value="analytical">Analytical Skill</option>
+            </select>
+            <button id="start-btn">Start Quiz</button>
+        </div>
+        <div class="question">
+            <p id="question-text"></p>
+        </div>
+        <div class="options">
+            <!-- Options will be generated dynamically based on selected category -->
+        </div>
+        <button id="submit-btn">Submit</button>
+    </div>
+
+    <script src="script.js"></script> <!-- Link to your JavaScript file for functionality -->
+</body>
+</html>
